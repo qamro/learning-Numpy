@@ -27,3 +27,8 @@ print(array[0, 0, 0])
 print(array[1, 1, 2])
 print(array[2, 1, 0])
 print(array[0, 1, 1])
+
+# simple example about concatenation
+# the word is QAMRO
+word = array[0, 1, 0] + array[0, 0, 0] + array[1, 1, 1] + array[2, 1, 1] + array[2, 0, 0] 
+print(word)
