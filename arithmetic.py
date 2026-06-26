@@ -1,5 +1,5 @@
 import numpy as np 
-# git commit -m "arithmetic operations"
+
 # scalar arithmetic
 array = np.array([1, 2, 3])
 print(array + 1)
@@ -29,3 +29,15 @@ print(array3 - array4)
 print(array3 * array4)
 print(array3 / array4)
 print(array3 ** array4)
+print()
+
+# comparison operators
+scores = np.array([10, 15, 7, 20, 19, 3])
+# that returns a boolean array
+print(scores == 20) 
+print(scores >= 10) 
+print(scores < 10) 
+# we can also use indexing to assign new values to our array elements
+# for example
+scores[scores < 10] = 0
+print(scores)
