@@ -1,0 +1,32 @@
+import numpy as np 
+
+# aggregate functions is used to summarize data 
+# typically aggregate functions return a single value
+array = np.array([[1, 2 ,3 ,4, 5],
+                [6, 7, 8, 9, 10]])
+# sum all the elements in an array function
+print(np.sum(array))
+# the mean of all the elements in an array function
+print(np.mean(array))
+# the standard deviation of elements in an array function (الانحراف المعياري) this is for statistics
+print(np.std(array))
+# the variance of elements in an array function (التباين) this is for statistics
+print(np.var(array))
+# the minimum value of all the elements in an array function
+print(np.min(array))
+# the maximum value of all the elements in an array function
+print(np.max(array))
+# the position(index) of the minimum value of all the elements in an array function
+print(np.argmin(array))
+# the position(index) of the maximum value of all the elements in an array function
+print(np.argmax(array))
+# sum all the columns function
+print(np.sum(array, axis=0))
+# sum all the rows function
+print(np.sum(array, axis=1))
+# mean of the columns elements function
+print(np.mean(array, axis=0))
+# mean of the rows elements function
+print(np.mean(array, axis=1))
+
+# generally if we wanna operate with only rows or only columns we add axis=0 for columns and axis=1 for rows
