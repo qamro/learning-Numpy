@@ -8,6 +8,20 @@ array = np.array([[1, 2 ,3 ,4, 5],
 print(np.sum(array))
 # the mean of all the elements in an array function
 print(np.mean(array))
+# Product (multiplication) of elements
+print(np.prod(array))
+# Middle value after sorting the array
+print(np.median(array))
+
+
+
+
+
+
+
+
+
+
 # the standard deviation of elements in an array function (الانحراف المعياري) this is for statistics
 print(np.std(array))
 # the variance of elements in an array function (التباين) this is for statistics
