@@ -19,9 +19,11 @@ print(np.linalg.norm(array))
 print(np.linalg.norm(array, axis=0))
 # calculate Array/Vector/matrix magnitude for all elements in each row
 print(np.linalg.norm(array, axis=1))
-# Returns the cumulative (running) sum of the elements in the columns
+# Returns the cumulative (running) sum of the elements in the array
+print(np.cumsum(array))
+# Returns the cumulative (running) sum of the elements in each column
 print(np.cumsum(array, axis=0))
-# Returns the cumulative (running) sum of the elements in the rows
+# Returns the cumulative (running) sum of the elements in each row
 print(np.cumsum(array, axis=1))
 # the standard deviation of elements in an array function (الانحراف المعياري) this is for statistics
 print(np.std(array))
