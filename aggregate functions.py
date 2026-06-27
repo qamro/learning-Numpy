@@ -1,5 +1,5 @@
 import numpy as np 
-# git commit -m "aggregation functions"
+
 # aggregate functions is used to summarize data 
 # typically aggregate functions return a single value
 array = np.array([[1, 2 ,3 ,4, 5],
