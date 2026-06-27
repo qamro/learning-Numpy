@@ -30,3 +30,5 @@ print(qamro)
 # NOTE: np.nan indicates a non number value
 qamro = np.where(ages == 18, ages, np.nan) # here we replace the other values that are different of 18 by nan
 print(qamro)
+qamro = np.where(ages == 18) # here we search for the index that satisfy our condition
+print(qamro)
