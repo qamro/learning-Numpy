@@ -13,10 +13,11 @@ print(np.prod(array))
 # Middle value after sorting the array
 print(np.median(array))
 # calculate Array/Vector/matrix magnitude for all elements in the array
+# using this law : sqrt(x² + y² + z² + ....)
 print(np.linalg.norm(array))
-# calculate Array/Vector/matrix magnitude for all elements in the columns
+# calculate Array/Vector/matrix magnitude for all elements in each column
 print(np.linalg.norm(array, axis=0))
-# calculate Array/Vector/matrix magnitude for all elements in the rows
+# calculate Array/Vector/matrix magnitude for all elements in each row
 print(np.linalg.norm(array, axis=1))
 # Returns the cumulative (running) sum of the elements in the columns
 print(np.cumsum(array, axis=0))
