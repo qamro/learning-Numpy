@@ -30,5 +30,10 @@ print(qamro)
 # NOTE: np.nan indicates a non number value
 qamro = np.where(ages == 18, ages, np.nan) # here we replace the other values that are different of 18 by nan
 print(qamro)
+# if you want the index that satisfy a condition use np.where(only the condition)
+# if our array is 1D the output will be the index that satisfy our condition directly
+# if our array is 2D the output will be a tuple of two arrays 
+# the first array in the tuple shows the row indexes that satisfy our condition
+# the second array in the tuple shows the column indexes that satisfy our condition
 qamro = np.where(ages == 18) # here we search for the index that satisfy our condition
 print(qamro)
