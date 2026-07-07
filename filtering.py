@@ -5,8 +5,8 @@ ages = np.array([[22, 18, 17, 32, 26, 20, 45, 15],
 # now we can class and filter these data 
 # when we filter an array according to a condition then we create new array
 # this new array it is always 1 dimension
-# in python we use and or in numpy we use the logical and |
-# in python we use and and in numpy we use the logical and &
+# in python we use "or", in numpy we use the logical and |
+# in python we use "and", in numpy we use the logical and &
 teenagers = ages[ages < 18] # teenagers its new array
 print(teenagers)
 adults = ages[(ages >= 18) & (ages < 65)] # in numpy we use the logical and & 
